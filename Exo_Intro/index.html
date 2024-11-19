@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" p0>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Exo_Intro</title>
+		<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="public/css/app.css">
+		</head>
+		<body>
+			<nav class="navbar bg-primary navbar-expand-lg navbar-light bg-ligh">
+				<div class="container-fluid">
+					<a class="navbar-brand text-light" href="#">Navbar</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link text-light" href="#">Link</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Dropdown
+						</a>
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="#">Action</a></li>
+						  <li><a class="dropdown-item" href="#">Another action</a></li>
+						  <li><hr class="dropdown-divider"></li>
+						  <li><a class="dropdown-item" href="#">Something else here</a></li>
+						</ul>
+					  </li>
+					 </ul>
+					<form class="d-flex" role="search">
+					  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					  <button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				  </div>
+				</div>
+			  </nav>
+			  
+			  <!-- Section Jumbotron -->
+			 <div class="bg-light">
+			  <div class="jumbotron bg-light mx-auto py-5 ms-5">
+				  <h1 class="display-2 fw-medium fw-light">Ici vous avez le component jumbotron</h1>
+				  <p class="lead display-7 border-bottom lh-lg pb-2">Il y a même du texte que vous pouvez rajouter pour des explications supplémentaire</p>
+				  <p>Ici des informations segondaire</p>
+				  <a class="btn btn-primary" href="#" role="button">Un bouton déjà tout fait pour vous</a>
+			  </div>
+			</div>
+				
+			<!-- Section Container -->
+		    <div class="container w-75">
+				<div class="text-start mb-4 mr-8">
+					<h2 class="display-6 fw-semibold">Nous nous trouvons ici dans un container qui est limiter en largeur 
+					<span class="badge bg-success">et ceci est un badge</span>
+					<p class="fs-3">voilà ici une collection de différent type de badge</p>
+				</h2>
+			</div>
+			
+				
+				<div class="mb-3">
+					<span class="badge bg-primary me-2">moi je suis un test</span>
+					<span class="badge bg-danger me-2">moi je suis serieux</span>
+					<span class="badge bg-warning">et moi l'arbore juste une autre couleur</span>
+				</div>
+				</div>
+			</div>
+			
+			<!-- Section Container Fluid -->
+			<div class="container-fluid text-center mb-4">
+			<h2 class="fs-1">Vous avez ici un container fluid</h2>
+			<p>mais qu'est-ce que cela veut dire ? Quelle est la différence ? Et pourquoi le texte est soudainement centré</p>
+			
+			<div class="alert alert-danger w-50 text-start mx-auto">
+				Recherche dans la doc ..... LA DOOOOOOOOC!!!!!!!!!
+				</div>
+			</div>
+		
+			<!-- Section Dark -->
+			<div class="text-white py-5 text-center mb-5" style="background-color: #373c42;">
+			<h2>Voici une section avec un fond noir et du texte blanc.</h2>
+			<p class="fs-2">Mais comment fait-on cela ? est-ce de la magie ?...de la magie noir... Mouahahahaha</p>
+			<div class="alert alert-light mx-auto ps-4 text-start" style="max-width: 1100px;">
+				Et si tu y regarde de plus pres, nous somme entourer par une force mistérieuse qui nous repousse des bords.
+			</div>
+			</div>
+		
+			<!-- Section avec 3 colonnes -->
+			<div class="row mb-4 m-4">
+				<!-- Colonne Liste -->
+				<div class="col-md-4 d-flex flex-column align-self-center">
+										<h3>Une liste de chose à faire</h3>
+					<div class="list-group">
+						<div class="list-group-item list-group-item-primary">Réviser le soir.</div>
+					<div class="list-group-item">Être curieux et ne pas hésiter à chercher par moi même et à tester.</div>
+					<div class="list-group-item">
+						Toujours croire en la puissance binaire du coach
+						<span class="badge bg-success">que le code soit sur lui</span>
+						</div>
+					</div>
+				</div>
+			
+				<!-- Colonne Carte -->
+				<div class="col-md-4 ">
+					<h3 class="fs-1">Les cartes ne sont pas faite que pour jouer</h3>
+					<div class="card">
+						<img src="./public/img/img_1.jpg" class="card-img-top" alt="Skull Spade">
+						<div class="card-body bg-secondary text-white">
+						<h5 class="card-title">L'As de trefle qui pique ton coeur</h5>
+						<p class="card-text">Caroline</p>
+						</div>
+					</div>
+				</div>
+			
+					<!-- Colonne Progress -->
+				<div class="col-md-4 d-flex flex-column align-self-center ">
+					<div class="col-md-4 w-100">
+						<h3 class="text-center">J'espère que ton apprentissage de bootstrap évolue aussi vite</h3>
+						<div class="progress m-2" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar progress-bar-striped" style="width: 10%"></div>
+						  </div>
+						  <div class="progress m-2" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar progress-bar-striped bg-success" style="width: 25%"></div>
+						  </div>
+						  <div class="progress m-2" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
+						  </div>
+						  <div class="progress m-2" role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar progress-bar-striped bg-warning" style="width: 75%"></div>
+						  </div>
+						  <div class="progress m-2" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar progress-bar-striped bg-danger" style="width: 100%"></div>
+						  </div>
+					</div>
+			    </div>
+			</div>
+		    
+			
+
+
+		</div>
+		
+		<!-- Footer Alert -->
+		<div class="alert alert-info text-center">
+			C'est moi ou les 3 colonnes du dessus sont centré verticalement
+		</div>
+	</div>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
+
